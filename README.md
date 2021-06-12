@@ -24,5 +24,5 @@ DISCLAIMER: The requirements listed here are for the defaults I have set. All of
 5. When the VM launches, hit enter at the Clover boot menu and open Disk Utility when macOS boots.
 6. Find the 80GB disk and click Erase. Change the format to APFS and click Erase. You can change the name if you'd like as well.
 7. Close Disk Utility and click Reinstall macOS.
-8. Setup macOS as if you were setting up a normal Mac. However, DO NOT SIGN INTO YOUR APPLE ID. If you want to do that, you'll need to follow the steps at https://passthroughpo.st/prepping-osx-vm-for-apple-id/ after you've setup your VM.
-9. After setup, you should now have a basic macOS VM. 
+8. Setup macOS as if you were setting up a normal Mac. However, DO NOT SIGN INTO YOUR APPLE ID. If you want to do that, you'll need to follow the steps at https://github.com/HadesButGithub/macOS-KVM-AIO/blob/main/docs/guide-Apple-ID.md after you've setup your VM and added it to Virtual Machine Manager
+9. After setup, you should now have a basic macOS VM. Now you can either launch it by cding into the folder and typing ``./basic.sh`` or by following the guide at https://github.com/foxlet/macOS-Simple-KVM#step-2a-virtual-machine-manager to add it to virtual-machine-manager for easier access.
